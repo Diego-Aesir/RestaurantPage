@@ -1,0 +1,9 @@
+.divContactTable {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(249, 219, 186);
+    height: 90vh;
+    width: 30%;
+    margin-top: 10px;
+    border: 11px solid rgb(31, 49, 111);
+}
