@@ -1,15 +1,20 @@
+import { homeLayout} from "./home-page/home-loader.js";
 import "./styles.css";
+
 const nav = document.querySelector("nav"); 
 const content = document.querySelector("#content");
 
 const button_home = document.createElement("button");
 button_home.innerText = "Home";
+button_home.addEventListener("click", homeLayout);
 
 const button_menu = document.createElement("button");
 button_menu.innerText = "Menu";
 
 const button_contact = document.createElement("button");
 button_contact.innerText = "Contact";
+
+
 
 
 nav.appendChild(button_home);

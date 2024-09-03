@@ -1,0 +1,38 @@
+.divTable {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(249, 219, 186);
+    height: 90vh;
+    width: 30%;
+    margin-top: 10px;
+}
+
+.divImage{
+    flex: 3 2 0%;
+    display: grid;
+    grid-template-columns: repeat(2, 260px);
+    grid-template-rows: repeat(2, 280px);
+    padding-left: 25px;
+    gap: 10px;
+}
+
+.divImage > img {
+    height: 30vh;
+    width: 13vw;
+    border-radius: 25%;
+    object-fit: cover;
+}
+
+.divImage > img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+    flex: 0 1 0%;
+    font-family: 'Arial Black', sans-serif;
+    font-size: 4rem;
+    color: #2196F3;
+    text-align: center;
+    text-shadow: 1px 1px 0 #333, 2px 2px 0 #333, 3px 3px 0 #333;
+}

@@ -1,12 +1,38 @@
+:root {
+    overflow: hidden;
+    margin: 0%;
+}
+
 header {
     display: grid;
+    height: 6.5vh;
     width: 100%;
     justify-content: center;
-    background-color: rgb(167, 45, 36);
+    background-color: rgb(31, 49, 111);
 }
 
 nav {
+    margin-top: 10px;
+    margin-bottom: 10px;
     display: grid;
     grid-template-columns: repeat(3, 100px);
     gap: 30px;
+}
+
+nav > {
+    border-radius: 10%;
+}
+
+nav >:hover {
+    box-shadow: 0 0 15px rgb(26, 72, 112);
+    transform: translateY(-2px);
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.363);
+}
+
+#content {
+    display: flex;
+    height: 97vh;
+    width: 99.9%;
+    justify-content: center;
+    background-color: rgb(26, 72, 112);
 }
