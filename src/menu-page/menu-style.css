@@ -8,13 +8,13 @@
     border: 11px solid rgb(31, 49, 111);
 }
 
-p {
+.divMenuTable > p {
     margin-left: 30px;
     font-weight: bolder;
     font-size: larger;
 }
 
-img {
+.divMenuTable > .pandaImg {
     height: 30vh;
     width: 27vw;
     object-fit: cover;

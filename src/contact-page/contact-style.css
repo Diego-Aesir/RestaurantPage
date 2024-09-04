@@ -7,3 +7,15 @@
     margin-top: 10px;
     border: 11px solid rgb(31, 49, 111);
 }
+
+.divContactTable > img {
+    border-radius: 35%;
+    height: 30vh;
+    width: 27vw;
+    margin-left: 25px;
+}
+
+.divContactTable > img:hover {
+    transform: scale(1.01);
+    box-shadow: 1px 1px 10px black;
+}

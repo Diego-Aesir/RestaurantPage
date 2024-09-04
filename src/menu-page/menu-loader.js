@@ -62,6 +62,7 @@ export function menuLayout() {
 
     const image = document.createElement("img");
     image.src = pandaEating;
+    image.className = "pandaImg";
 
     foodGrid.appendChild(foodHeader);
     foodGrid.appendChild(firstFood);
